@@ -11,7 +11,7 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '8ee2c2ef-239d-41c8-b70f-224b9837ec03'
-  imageRepository: 'evkcloudpipelinesjavascriptdocker'
+  imageRepository: 'javascriptdocker'
   containerRegistry: 'weuhub.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/app/Dockerfile'
   tag: '$(Build.BuildId)'
